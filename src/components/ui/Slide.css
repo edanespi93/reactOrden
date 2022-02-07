@@ -1,0 +1,48 @@
+.slide {
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.slide__head {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px 20px 10px;
+}
+
+.slide__head > p > span {
+  font-size: 1.3rem;
+  font-weight: 560;
+  cursor: pointer;
+}
+
+.aside__logout {
+  cursor: pointer;
+}
+
+.slide__footer {
+  margin: 10px;
+}
+
+.slide__img {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
+
+.aside__menu {
+  margin: 10px;
+}
+
+.aside__li {
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.aside__li > a {
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-decoration: none;
+}

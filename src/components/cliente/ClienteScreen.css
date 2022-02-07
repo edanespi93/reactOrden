@@ -1,0 +1,198 @@
+.search__title,
+.search__label,
+.search__input,
+th,
+td {
+  color: black;
+}
+
+.search {
+  display: grid;
+  width: 90%;
+  grid-template-rows: 40% 60%;
+}
+.search__form {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.search__title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: xx-large;
+}
+.search__label {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 24px;
+}
+.search__input {
+  height: 40px;
+  width: 40%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.search__input:focus {
+  outline: none;
+}
+.search__input[placeholder] {
+  padding: 5px;
+  font-size: 20px;
+}
+.search__button {
+  background-color: hsl(217, 54%, 11%);
+  height: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.search__button:hover {
+  background-color: hsl(215, 49%, 21%);
+}
+.search_btn {
+  border: none;
+  color: black;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 15px;
+}
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 1.2em;
+  font-family: sans-serif;
+  min-width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+  background-color: hsl(217, 54%, 11%);
+  color: #ffffff;
+  text-align: left;
+}
+.styled-table th {
+  padding: 12px 15px;
+  color: aliceblue;
+}
+.styled-table td {
+  padding: 12px 15px;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid hsl(217, 54%, 11%);
+}
+.ReactModalPortal > div {
+  opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  transition: opacity 0.2s ease-in-out;
+  z-index: 999;
+}
+
+.modal-fondo {
+  background-color: rgba(0, 0, 0, 0.3);
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  position: fixed;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.modal {
+  background: white;
+  border-radius: 7px;
+  color: rgb(51, 51, 51);
+  display: inline;
+  height: 620px;
+  width: 600px;
+  outline: none;
+  margin-top: 80vh;
+  padding: 10px;
+}
+
+.modal__edit > h2,
+.modal__edit > label {
+  color: black;
+}
+.modal__edit > h2 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.modal__edit {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.modal__input {
+  margin-top: 10px;
+  height: 40px;
+  color: black;
+}
+.modal__input[placeholder] {
+  padding: 5px;
+  font-size: 20px;
+}
+
+.modal__edit > label {
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: 600;
+}
+.btn_close {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: black;
+  position: absolute;
+  right: 10px;
+}
+
+.modal__clear {
+  border-radius: 7px;
+  margin-top: 20px;
+  height: 40px;
+  width: 100%;
+  background-color: hsl(217, 54%, 11%);
+  font-size: 20px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__clear:hover {
+  background-color: hsl(215, 49%, 21%);
+}
